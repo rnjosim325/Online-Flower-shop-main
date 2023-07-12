@@ -1,0 +1,248 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+.heroBanner {
+  height: 600px;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  width: 100%;
+}
+
+.leftContent {
+  /* background-color: red; */
+  width: 100%;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftContentData h1 {
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+}
+
+.leftContentData p {
+  font-size: 12px;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 20px;
+  text-align: start;
+}
+
+.rightContent {
+  /* background-color: blue; */
+  width: 100%;
+  margin-right: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContent img {
+  height: 600px;
+}
+
+.btnStyle {
+  background-color: #e55473;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+  margin: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.sectionTitleContent h1,
+p {
+  text-align: center;
+}
+
+.sectionTitleContent p {
+  font-size: 12px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.flowrTree {
+  margin: 0 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkFlower {
+  color: black;
+}
+
+.flowerBoxContainer {
+  height: 400px;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  /* background-color: aqua; */
+}
+
+.flowerBox {
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstBox {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.secondBox {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.thirdBox {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.deliveryContent {
+  background: rgba(39, 39, 39, 0.05);
+  margin: 0 130px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.contentDeleivery {
+  padding: 20px;
+}
+
+.support-text {
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+
+  font-weight: 100px;
+}
+
+.hotdealmain {
+  height: 500px;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-around;
+}
+
+span {
+  color: #e55473;
+}
+
+.Hotdealflower {
+  width: 318px;
+  height: 420px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hotdealtitle {
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.btnStyle1 {
+  text-align: center;
+  background-color: #e55473;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+  margin-left: 200px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.title1 {
+  text-align: center;
+}
+
+.des {
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.instagram {
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+.boxImg {
+  height: 350px;
+}
+
+.marginboth {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.imgforintragram {
+  display: flex;
+  /* flex-wrap: wrap; */
+  height: 350px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.thelatestdeals {
+  background-image: url("../Assets/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding-bottom: 70px;
+  background-size: cover;
+  height: 200px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.title2 {
+  text-align: center;
+}
+
+.formtextcolor {
+  color: rgba(39, 39, 39, 0.6);
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.footerbackgroundcolor {
+  background-color: #111010;
+
+  margin-top: 70px;
+  padding-bottom: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footerdes {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.span1 {
+  color: white;
+}
